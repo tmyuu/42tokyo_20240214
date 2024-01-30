@@ -1,5 +1,5 @@
 import products from '../products.json';
-import './Products.css'; // CSSスタイルのインポート
+import './Products.css';
 
 function Products() {
   return (
@@ -13,9 +13,6 @@ function Products() {
               <h2 className="product-name">{product.name}</h2>
               <p className="product-price">¥{product.price}</p>
               <p className="product-title">{product.title}</p>
-              <p className="product-description">{product.description}</p>
-              {product.sale_flag && <span className="sale-flag">販売中</span>}
-              {product.new_flag && <span className="new-flag">新商品</span>}
             </div>
           </div>
         ))}
