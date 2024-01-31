@@ -31,17 +31,3 @@
   font-weight: bold;
   color: green;
 }
-
-.sale-flag, .new-flag {
-  display: inline-block;
-  margin-right: 10px;
-  padding: 5px;
-  background-color: #ff0;
-  color: #000;
-  border-radius: 5px;
-  font-size: 0.8em;
-}
-
-.new-flag {
-  background-color: #0f0;
-}
