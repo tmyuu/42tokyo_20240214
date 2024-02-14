@@ -1,0 +1,31 @@
+.cart {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cart h2 {
+  margin-bottom: 15px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.cart ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart ul li:last-child {
+  border-bottom: none;
+}
+
+.cart p {
+  margin: 0;
+  font-weight: bold;
+}
